@@ -1,7 +1,7 @@
 // Vercel serverless function: stocke les données du site (Upstash Redis via Vercel Marketplace)
 const U = process.env.KV_REST_API_URL || process.env.UPSTASH_REDIS_REST_URL;
 const T = process.env.KV_REST_API_TOKEN || process.env.UPSTASH_REDIS_REST_TOKEN;
-const CODE = process.env.ADMIN_CODE || 'amine3815';
+const CODE = process.env.ADMIN_CODE || 'Aminefrag31';
 module.exports = async (req, res) => {
   res.setHeader('Cache-Control', 'no-store');
   try {
